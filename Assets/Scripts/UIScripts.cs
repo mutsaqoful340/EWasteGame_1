@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; //To access UI elements in Unity, add this.
 
 public class UIScripts : MonoBehaviour
-{
+{ 
     public void Btn_PlayGame()
     {
         //Load scene by <Build Index> -> SceneManager.LoadSccene(X);
@@ -23,4 +24,6 @@ public class UIScripts : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    
 }
